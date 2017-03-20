@@ -1,6 +1,6 @@
 {
   "name": "vai-chover",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Será que vai chover?",
   "main": "index.js",
   "repository": "alexfigueiredo/vai-chover",

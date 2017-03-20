@@ -13,11 +13,11 @@ request.get('http://ipinfo.io/', (err, response, body) => {
         service: 'darksky',
         key: 'd3782b73349352d1b9e5a4471f394a94',
         units: 'celcius',
-        cache: true,
+        cache: false,
         lang: 'pt'
     });
 
     forecast.get(location, (error, weather) => {
-        console.log(weather.daily.summary);
+        console.log(weather.hourly.summary);
     });
 });
