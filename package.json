@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Será que vai chover?",
   "main": "index.js",
+  "repository": "alexfigueiredo/vai-chover",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "index.js",
   "keywords": [
     "forecast",
     "chuva",
